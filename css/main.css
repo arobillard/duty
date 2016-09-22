@@ -29,7 +29,7 @@ h1 {
   letter-spacing: 1rem;
 }
 
-.navbar ul {
+.navbar {
   list-style-type: none;
   text-align: center;
 
@@ -38,26 +38,30 @@ h1 {
   border-bottom: 3px solid #393;
 
   padding-left: 0;
+
+  overflow: hidden;
 }
 
-.navbar ul li {
+.navbar li {
+  float:left;
+  width: 25%;
+  text-align: center;
+
+  padding: .5em;
+}
+
+.navbar a {
   display: inline-block;
-
-
-
-  padding: 1em;
-}
-
-.navbar ul li a {
+  width: 50%;
   color: white;
 
-  padding: .5em 4em;
+  padding: 1em 1em;
 
   text-align: center;
   text-decoration: none;
   font-size: 1.25rem;
 }
 
-.navbar ul li a:hover {
+.navbar a:hover {
   background-color: #393;
 }
