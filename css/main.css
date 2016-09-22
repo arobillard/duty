@@ -26,6 +26,7 @@ h1 {
 
   text-align: center;
   font-weight: 200;
+  font-size: 3rem;
   letter-spacing: 1rem;
 }
 
@@ -33,13 +34,18 @@ h1 {
   list-style-type: none;
   text-align: center;
 
-  background-color: #333;
   border-top: 3px solid #393;
   border-bottom: 3px solid #393;
 
   padding-left: 0;
 
   overflow: hidden;
+
+  display: block;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 
 .navbar li {
@@ -52,10 +58,9 @@ h1 {
 
 .navbar a {
   display: inline-block;
-  width: 50%;
   color: white;
 
-  padding: 1em 1em;
+  padding: 1em 2em;
 
   text-align: center;
   text-decoration: none;
@@ -63,5 +68,76 @@ h1 {
 }
 
 .navbar a:hover {
+  background-color: #333;
+  border-radius: 8px;
+}
+
+a.current {
   background-color: #393;
+  border-radius: 8px;
+}
+
+a.current:hover {
+  background-color: #373;
+  border-radius: 8px;
+}
+
+/* ----- =Footer ----- */
+
+.footer {
+  background-color: #222;
+  padding: 2em 0 1em;
+}
+
+.nav-social {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+
+  display: block;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-social li {
+  float:left;
+  width: 25%;
+  text-align: center;
+}
+
+.nav-social a {
+  color: white;
+  text-decoration: none;
+}
+
+.fbook {
+  width: 30px;
+}
+
+.info-nav {
+  margin: 2em 0;
+}
+
+.nav-info {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-info li {
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid #666;
+}
+
+li.no-bord {
+  border-right: 0px solid black;
+}
+
+.nav-info a {
+  color: #666;
+  text-decoration: none;
+  padding: 1.5em;
 }
