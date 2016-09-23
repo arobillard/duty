@@ -82,6 +82,60 @@ a.current:hover {
   border-radius: 8px;
 }
 
+/* ----- =Main ----- */
+
+.main {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+}
+
+.focus {
+  float: left;
+  width: 60%;
+  padding-right: 3em;
+}
+
+.focus-img {
+  max-width: 500px;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 40%;
+  padding-left: 3em;
+  border-left: 1px solid #333;
+}
+
+.sidebar-img {
+  max-width: 300px;
+}
+
+.fp-block {
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #333;
+}
+
+.fp-story {
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #333;
+}
+
+.fp-last-story {
+  padding-bottom: 2em;
+}
+/*
+.fp-arts {
+  display: block;
+}
+
+.party {
+  background-color: green;
+}
+*/
 /* ----- =Footer ----- */
 
 .footer {
