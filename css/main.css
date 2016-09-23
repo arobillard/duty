@@ -91,6 +91,28 @@ a.current:hover {
   padding-top: 2em;
 }
 
+a {
+  text-decoration: none;
+}
+
+h2 a {
+  color: darkgreen;
+}
+
+a h2{
+  color: darkgreen;
+}
+
+a h3 {
+  color: black;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
 .focus {
   float: left;
   width: 60%;
@@ -194,4 +216,12 @@ li.no-bord {
   color: #666;
   text-decoration: none;
   padding: 1.5em;
+}
+
+.nav-info a:hover {
+  color: #444;
+}
+
+.sm-icon:hover {
+  opacity: .6;
 }
